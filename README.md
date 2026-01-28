@@ -2,9 +2,9 @@
 
 ## Summary
 
-This is a permissioned file storage system that uses Cloudflare R2 as a dynamic backend.
+This Worker API adds custom permissioning on top of Cloudflare R2 as a dynamic blob storage backend.
 
 ## Admin notes
 
-- Deployments to Cloudflare Wrangler triggered on push to `main`.
+- Deployments to Cloudflare Workers are triggered on push to `main`.
 - New users: update `api/policy.json` and `scripts/kv.sh` then apply with `scripts/r2.sh`.

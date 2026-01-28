@@ -1,0 +1,8 @@
+.env
+.wrangler/
+
+docs/
+
+node_modules/
+
+package*

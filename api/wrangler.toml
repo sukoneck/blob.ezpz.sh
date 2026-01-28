@@ -1,4 +1,4 @@
-name = "blob-ezpz-api"
+name = "blob-ezpz-sh"
 main = "src/index.js"
 compatibility_date = "2026-01-27"
 workers_dev = false
